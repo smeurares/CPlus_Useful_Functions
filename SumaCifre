@@ -1,0 +1,8 @@
+int sumaCifrelor(int numar) {
+  int suma = 0;
+  while (numar != 0) {
+    suma = suma + numar % 10;
+    numar = numar / 10;
+  }
+  return suma;
+}
